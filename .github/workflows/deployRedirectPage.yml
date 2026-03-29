@@ -6,7 +6,7 @@ jobs:
   add-redirect-page:
     name: Add redirect page to https://holoprint-mc.github.io
     runs-on: ubuntu-latest
-    if: github.repository == 'SuperLlama88888/holoprint'
+    if: github.repository == 'TitanStar73/holoprint'
     steps:
       - name: Add redirect page
         run: echo "<meta http-equiv='refresh' content='0;url=https://holoprint-mc.github.io'>" > index.html
